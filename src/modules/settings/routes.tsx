@@ -13,7 +13,6 @@ import ProductService from './productService/routes';
 import ProfileRoutes from './profile/routes';
 import PropertiesRoutes from './properties/routes';
 import ResponseTemplatesRoutes from './responseTemplates/routes';
-import StatusRoutes from './status/routes';
 import TeamRoutes from './team/routes';
 
 const routes = () => (
@@ -32,7 +31,6 @@ const routes = () => (
     <General key="General" />
     <PropertiesRoutes key="PropertiesRoutes" />
     <ImportHistory key="ImportHistory" />
-    <StatusRoutes key="StatusRoutes" />
   </React.Fragment>
 );
 
